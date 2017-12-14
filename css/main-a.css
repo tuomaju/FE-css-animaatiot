@@ -1,0 +1,364 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+body{
+    background-color:#34495E ;
+    font-family: Verdana;
+    color: #F4F6F7;
+    text-align: center;
+}
+
+h3{
+    padding-top: 40px;
+}
+
+
+@keyframes animaatio1 {
+    0%   {background-color:#B03A2E}
+    50%  {background-color:#2874A6}
+    100%   {background-color:#B03A2E}
+
+}
+@keyframes animaatio2 {
+    0%   {left:-100px}
+    50%  {left:100px}
+    100%   {left:-100px}
+
+}
+
+#div1 {
+
+    margin:auto;
+
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: #B03A2E;
+    animation-name: animaatio1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+    vertical-align: middle;
+    line-height: 100px;
+    border-radius: 50%;
+}
+
+#div2 {
+
+    margin:auto;
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: #2874A6;
+    animation-name: animaatio2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+    vertical-align: middle;
+    line-height: 100px;
+    border-radius: 50%;
+}
+
+#div3 {
+    margin:auto;
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: #239B56;
+    vertical-align: middle;
+    line-height: 100px;
+    border-radius: 50%;
+    transition:  0.33s ease-in-out;
+    -webkit-box-shadow: 0px 0px 0px -16px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 0px -16px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 0px -16px rgba(0,0,0,0.75);
+
+}
+#div3:hover{
+    -webkit-box-shadow: 0px 0px 67px -16px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 67px -16px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 67px -16px rgba(0,0,0,0.75);
+    -ms-transform: scale(1.25, 1.25); /* IE 9 */
+    -webkit-transform: scale(1.25, 1.25); /* Safari */
+    transform: scale(1.25, 1.25);
+
+
+}
+#div4 {
+    margin:auto;
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: #D4AC0D;
+    vertical-align: middle;
+    line-height: 100px;
+    border-radius: 50%;
+    transition:  0.33s ease-in-out;
+
+}
+
+#div4:hover{
+
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);
+}
+#div5 {
+    cursor: pointer;
+    margin:auto;
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: #884EA0;
+    vertical-align: middle;
+    line-height: 100px;
+    border-radius: 50%;
+    transition:  1s ease-in-out;
+    -webkit-box-shadow: 0px 0px 0px -16px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 0px -16px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 0px -16px rgba(0,0,0,0.75);
+
+
+}
+#div5:hover{
+    -webkit-box-shadow: 0px 0px 67px -16px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 67px -16px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 67px -16px rgba(0,0,0,0.75);
+    -webkit-transform: scale(1.25) rotateY(360deg); /* Safari */
+    transform: scale(1.25) rotateY(360deg);
+
+}
+#div5:active{
+    -webkit-box-shadow: 0px 0px 67px -16px rgba(0,0,0,0.75), inset 0px 0px 132px -32px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 67px -16px rgba(0,0,0,0.75), inset 0px 0px 132px -32px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 67px -16px rgba(0,0,0,0.75), inset 0px 0px 132px -32px rgba(0,0,0,0.75);
+    -webkit-transform: scale(1.25) rotateY(360deg); /* Safari */
+    transform: scale(1.25) rotateY(360deg);
+}
+
+
+
+#div6 {
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 0px 0px #dadbdc;
+    -moz-box-shadow: 0px 0px 0px 0px #dadbdc;
+    box-shadow: 0px 0px 0px 0px #dadbdc;
+    color: #34495E;
+    text-shadow: 0 -1px 0 0 #1d263b;;
+    margin:auto;
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: #F2F3F4;
+    vertical-align: middle;
+    line-height: 100px;
+    border-radius: 50%;
+    transition: 0.33s ease-in-out;
+    margin-bottom: 50px;
+}
+
+#div6:hover{
+    -webkit-box-shadow: 0px 10px 0px 0px #dadbdc;
+    -moz-box-shadow: 0px 10px 0px 0px #dadbdc;
+    box-shadow: 0px 10px 0px 0px #dadbdc;
+    -webkit-transform: rotateX(40deg); /* Safari */
+    transform: rotateX(40deg);
+}
+
+#div6:active{
+    transform: translateY(5px) rotateX(40deg);
+    -webkit-box-shadow: 0px 5px 0px 0px #dadbdc;
+    -moz-box-shadow: 0px 5px 0px 0px #dadbdc;
+    box-shadow: 0px 5px 0px 0px #dadbdc;
+    -webkit-transform: translateY(5px) rotateX(40deg); /* Safari */
+
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
